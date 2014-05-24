@@ -1,0 +1,56 @@
+compile
+test-only kvstore.Step1_PrimarySpec
+test-only kvstore.Step2_SecondarySpec
+~test-only kvstore.Step2_SecondarySpec
+compile
+~test-only kvstore.Step2_SecondarySpec
+submit sunstick@gmail.com qNG57tYZFc
+~test-only kvstore.Step3_ReplicatorSpec
+submit sunstick@gmail.com qNG57tYZFc
+~test-only kvstore.Step3_ReplicatorSpec
+submit sunstick@gmail.com qNG57tYZFc
+test
+test-only kvstore.Step2_SecondarySpec
+test-only kvstore.Step2_SecondarySpec kvstore.Step1_PrimarySpec
+test-only kvstore.Step2_SecondarySpec kvstore.Step1_PrimarySpec Step3_ReplicatorSpec
+test-only kvstore.Step2_SecondarySpec kvstore.Step1_PrimarySpec kvstore.Step3_ReplicatorSpec kvstore.Step4_SecondaryPersistenceSpec
+test-only kvstore.Step5_PrimaryPersistenceSpec
+submit sunstick@gmail.com qNG57tYZFc
+test-only kvstore.Step5_PrimaryPersistenceSpec
+test-only kvstore.Step2_SecondarySpec kvstore.Step1_PrimarySpec kvstore.Step3_ReplicatorSpec kvstore.Step4_SecondaryPersistenceSpec
+test-only kvstore.Step5_PrimaryPersistenceSpec
+test-only kvstore.Step2_SecondarySpec kvstore.Step1_PrimarySpec kvstore.Step3_ReplicatorSpec kvstore.Step4_SecondaryPersistenceSpec
+test-only kvstore.Step5_PrimaryPersistenceSpec
+test-only kvstore.Step2_SecondarySpec kvstore.Step1_PrimarySpec kvstore.Step3_ReplicatorSpec kvstore.Step4_SecondaryPersistenceSpec
+test-only kvstore.Step5_PrimaryPersistenceSpec
+test-only kvstore.Step2_SecondarySpec kvstore.Step1_PrimarySpec kvstore.Step3_ReplicatorSpec kvstore.Step4_SecondaryPersistenceSpec
+test-only kvstore.Step5_PrimaryPersistenceSpec
+test-only kvstore.Step2_SecondarySpec kvstore.Step1_PrimarySpec kvstore.Step3_ReplicatorSpec kvstore.Step4_SecondaryPersistenceSpec
+test-only kvstore.Step5_PrimaryPersistenceSpec
+test-only kvstore.Step2_SecondarySpec kvstore.Step1_PrimarySpec kvstore.Step3_ReplicatorSpec kvstore.Step4_SecondaryPersistenceSpec
+test-only kvstore.Step5_PrimaryPersistenceSpec
+test-only kvstore.Step2_SecondarySpec kvstore.Step1_PrimarySpec kvstore.Step3_ReplicatorSpec kvstore.Step4_SecondaryPersistenceSpec
+test-only kvstore.Step2_SecondarySpec kvstore.Step1_PrimarySpec kvstore.Step3_ReplicatorSpec kvstore.Step4_SecondaryPersistenceSpec kvstore.Step5_PrimaryPersistenceSpec
+submit sunstick@gmail.com qNG57tYZFc
+test-only kvstore.Step2_SecondarySpec kvstore.Step1_PrimarySpec kvstore.Step3_ReplicatorSpec kvstore.Step4_SecondaryPersistenceSpec kvstore.Step5_PrimaryPersistenceSpec
+submit sunstick@gmail.com qNG57tYZFc
+test-only kvstore.Step2_SecondarySpec kvstore.Step1_PrimarySpec kvstore.Step3_ReplicatorSpec kvstore.Step4_SecondaryPersistenceSpec kvstore.Step5_PrimaryPersistenceSpec
+test-only kvstore.Step6_NewSecondarySpec
+test-only kvstore.Step2_SecondarySpec kvstore.Step1_PrimarySpec kvstore.Step3_ReplicatorSpec kvstore.Step4_SecondaryPersistenceSpec kvstore.Step5_PrimaryPersistenceSpec
+submit sunstick@gmail.com qNG57tYZFc
+test-only kvstore.Step6_NewSecondarySpec
+submit sunstick@gmail.com qNG57tYZFc
+test-only kvstore.Step6_NewSecondarySpec
+test-only kvstore.Step2_SecondarySpec kvstore.Step1_PrimarySpec kvstore.Step3_ReplicatorSpec kvstore.Step4_SecondaryPersistenceSpec kvstore.Step5_PrimaryPersistenceSpec
+test-only kvstore.Step6_NewSecondarySpec
+test-only kvstore.Step2_SecondarySpec kvstore.Step1_PrimarySpec kvstore.Step3_ReplicatorSpec kvstore.Step4_SecondaryPersistenceSpec kvstore.Step5_PrimaryPersistenceSpec
+test-only kvstore.Step6_NewSecondarySpec
+test-only kvstore.Step2_SecondarySpec kvstore.Step1_PrimarySpec kvstore.Step3_ReplicatorSpec kvstore.Step4_SecondaryPersistenceSpec kvstore.Step5_PrimaryPersistenceSpec
+test-only kvstore.Step6_NewSecondarySpec
+test-only kvstore.Step2_SecondarySpec kvstore.Step1_PrimarySpec kvstore.Step3_ReplicatorSpec kvstore.Step4_SecondaryPersistenceSpec kvstore.Step5_PrimaryPersistenceSpec
+test-only kvstore.Step6_NewSecondarySpec
+test
+submit sunstick@gmail.com qNG57tYZFc
+test
+submit sunstick@gmail.com qNG57tYZFc
+clean

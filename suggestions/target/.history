@@ -1,0 +1,15 @@
+test suggestions.SwingApiTest
+compile
+submit sunstick@gmail.com qNG57tYZFc
+console
+submit sunstick@gmail.com qNG57tYZFc
+console
+submit sunstick@gmail.com qNG57tYZFc
+Observable(1, 2, 3).zip(Observable.interval(700 millis))
+console
+submit sunstick@gmail.com qNG57tYZFc
+console
+submit sunstick@gmail.com qNG57tYZFc
+sbt clean
+clean
+submit sunstick@gmail.com qNG57tYZFc
